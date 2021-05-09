@@ -1,0 +1,189 @@
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+  }
+
+  .fa-bars {
+      background-color: #FEFAE0;
+      color: #CCD5AE;
+      font-size: 40px;
+      padding: 20px;
+  }
+
+
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    list-style-type: none;
+	font-size: 25px;
+  }
+  
+  
+
+  .marque { 
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    margin-right: 90px;
+  }
+
+
+
+  .personnage  {
+    display: flex;  
+    justify-content: center;
+    margin-bottom: 350px;
+    position: relative;
+    color: white;
+  }
+
+
+  .descriptionProduit {
+    position: absolute;
+    top: 150px;
+    
+  }
+  .descriptionProduit1 {
+    position: absolute;
+    top: 250px;
+  }
+  .descriptionProduit2 {
+    position: absolute;
+    top: 350px;
+  }
+  .descriptionProduit3 {
+    font-size: 25px;
+    background-color: #CCD5AE;
+    opacity: 1;
+    border: white;
+    padding: 20px;
+    position: absolute;
+    top: 450px;
+    right: 1150px;
+    color: white;
+  }
+
+  .tdc {
+
+    width: 900px;
+  }
+
+
+  .evenement {
+    background-color: #CCD5AE;
+    padding: 70px;
+    margin-bottom: 300px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  .evenement .conference{
+	  width: 460px;
+  }
+
+
+
+  .evenement .coiffure {
+	  position: absolute;
+	  z-index: 1;
+  }
+
+  .evenement img {
+    width: 500px;
+  }
+
+
+  .evenement .fa-chevron-left, .fa-chevron-right {
+    font-size: 150px;
+    color: #FEFAE0;
+    padding: 80px;
+  }
+
+  .evenement p {
+    z-index: 2;
+    position: absolute;
+    left: 1350px;
+    top: 200px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+
+  .fa-arrow-up {
+      color: white;
+  }
+
+  .soins {
+	  width: 600px;
+  }
+
+
+  aside {
+    background-color: #CCD5AE;
+    padding: 40px;	 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  aside .etoile {
+	  width: 30px;
+	 
+  }
+
+  aside .fa-chevron-up, .fa-chevron-down  {
+	  font-size: 150px;
+      color: #FEFAE0;
+  }
+
+  aside p {
+    font-size: 20px;
+    color: white;
+  }
+
+
+  
+  .peau {
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.ingredient {
+	background-color: #CCD5AE;	
+	padding: 50px;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 100px;
+}
+
+
+
+.ingredient p {
+	width: 800px;
+    color: white;
+
+}
+
+ footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #CCD5AE;
+    color: white;
+    vertical-align: 80px;
+    padding: 50px;
+ }
+
+
+ footer div p {
+	 margin-bottom: 50px;
+	 font-weight: bold;
+ }
