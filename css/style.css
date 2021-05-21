@@ -1,3 +1,4 @@
+
 header {
     display: flex;
     justify-content: center;
@@ -15,6 +16,7 @@ header {
   nav ul {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 1000px;
     list-style-type: none;
 	font-size: 25px;
@@ -32,15 +34,23 @@ header {
 
 
   .personnage  {
+    background: url('../image/produitCapillaire.jpg') no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 25em;
+    width: 85%;
     display: flex;  
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    margin: auto;
     margin-bottom: 350px;
     position: relative;
     color: white;
   }
 
 
-  .descriptionProduit {
+  /* .descriptionProduit {
     position: absolute;
     top: 150px;
     
@@ -52,16 +62,18 @@ header {
   .descriptionProduit2 {
     position: absolute;
     top: 350px;
-  }
+  } */
   .descriptionProduit3 {
     font-size: 25px;
     background-color: #CCD5AE;
     opacity: 1;
     border: white;
     padding: 20px;
-    position: absolute;
+    align-self: flex-end;
+    margin-right: 22%;
+    /* position: absolute;
     top: 450px;
-    right: 1150px;
+    right: 1150px; */
     color: white;
   }
 
@@ -81,7 +93,7 @@ header {
   }
 
   .evenement .conference{
-	  width: 460px;
+	  width: 35%;
   }
 
 
@@ -92,21 +104,21 @@ header {
   }
 
   .evenement img {
-    width: 500px;
+    width: 32%;
   }
 
 
   .evenement .fa-chevron-left, .fa-chevron-right {
-    font-size: 150px;
+    font-size: 10em;
     color: #FEFAE0;
-    padding: 80px;
+    padding: 0.3em;
   }
 
   .evenement p {
     z-index: 2;
     position: absolute;
-    left: 1350px;
-    top: 200px;
+    /* left: 1350px; */
+    top: 7em;
     text-align: center;
     color: white;
     font-size: 30px;
@@ -169,7 +181,7 @@ header {
 
 .ingredient p {
 	width: 800px;
-    color: white;
+  color: white;
 
 }
 
